@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+*.csv
+faq.jsonl
+*.js
+parsers/obsolete/
+venv/
+**/faq/*.html
+**/products/*.html

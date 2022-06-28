@@ -18,4 +18,4 @@ for dataset_name in dataset_names:
 
 concat_df = pd.concat(dfs)
 print(concat_df.shape)
-concat_df.to_json('data/faq.csvl', index=True, lines=True, orient="records")
+concat_df.to_json('data/faq.jsonl', index=True, lines=True, orient="records")

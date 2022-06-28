@@ -7,7 +7,8 @@ In the first place it was collected to be used in our [demo](https://github.com/
 
 This repository contains source code of parsers which were used to fetch the data.
 
-The dataset can be downloaded with the following [script](https://github.com/qdrant/demo-cloud-faq/blob/tutorial/download_data.sh).  
+The dataset can be downloaded via the following command:
 
-
-
+```shell
+wget -O cloud_faq_dataset.jsonl https://storage.googleapis.com/demo-cloud-faq/dataset/cloud_faq_dataset.jsonl
+```
